@@ -30,6 +30,9 @@
         "yii\\composer\\Installer::postCreateProject": {
             "generateCookieValidationKey": [
                 "app/config/web.php"
+            ],
+            "setPermission": [
+              "app/config/sites"
             ]
         },
         "asset-installer-paths": {
