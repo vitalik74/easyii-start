@@ -32,7 +32,9 @@
                 "app/config/web.php"
             ],
             "setPermission": [
-              "app/config/sites"
+              {
+                "app/config/sites": 777
+              }
             ]
         },
         "asset-installer-paths": {
