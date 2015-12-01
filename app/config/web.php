@@ -50,7 +50,8 @@ $config = [
                 ],
             ],
         ],
-        'db' => require(__DIR__ . '/db.php'),
+        'db' => require(\yii\easyii\helpers\Multisite::getDbConfig(__DIR__)),
+        'view' => require(\yii\easyii\helpers\Multisite::getThemeConfig(__DIR__))
     ],
     'params' => $params,
 ];
